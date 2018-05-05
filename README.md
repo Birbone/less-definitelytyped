@@ -13,3 +13,7 @@ Users appreciate release notes as you update your extension.
 ### 1.0.0
 
 Initial release of less-definitelytyped
+
+## Project Url
+
+https://github.com/Birbone/less-definitelytyped
