@@ -27,7 +27,7 @@ class TypingsGeneratorCommand {
     }
 
     private handleLessParsingError(error: any, document: vscode.TextDocument) {
-        messagingService.error(`An error occured while parsing less file ${path.basename(document.fileName)}. ${error.message}`)
+        messagingService.error(`An error occured while parsing less file ${path.basename(document.fileName)}. ${error.message}`);
     }
 
     private handleSavingFileError(error: any) {
