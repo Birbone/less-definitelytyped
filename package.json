@@ -1,0 +1,37 @@
+{
+    "name": "less-definitelytyped",
+    "displayName": "Less-DefinitelyTyped",
+    "description": "An extensions that generates .less.d.ts file for your less file  containing all classes names used there.",
+    "version": "0.0.1",
+    "publisher": "birbone",
+    "engines": {
+        "vscode": "^1.23.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onLanguage:less"
+    ],
+    "main": "./out/extension",
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./",
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "npm run compile && node ./node_modules/vscode/bin/test"
+    },
+    "devDependencies": {
+        "typescript": "^2.6.1",
+        "vscode": "^1.1.6",
+        "tslint": "^5.8.0",
+        "@types/node": "^7.0.43",
+        "@types/mocha": "^2.2.42"
+    },
+    "dependencies": {
+        "@types/less": "0.0.32",
+        "@types/mkpath": "^0.1.29",
+        "less": "^3.0.2",
+        "mkpath": "^1.0.0"
+    }
+}
