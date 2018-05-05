@@ -2,7 +2,7 @@
     "name": "less-definitelytyped",
     "displayName": "Less-DefinitelyTyped",
     "description": "An extensions that generates .less.d.ts file for your less file  containing all classes names used there.",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "publisher": "birbone",
     "engines": {
         "vscode": "^1.23.0"
