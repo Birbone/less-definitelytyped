@@ -1,6 +1,6 @@
 # less-definitelytyped README
 
-This small extension for visual studio core generates type definitions for less files.
+This small extension for visual studio code generates type definitions for less files.
 
 ## Features
 
